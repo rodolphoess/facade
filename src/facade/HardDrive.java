@@ -2,8 +2,8 @@ package facade;
 
 public class HardDrive {
 	
-	public void read(int startPosition, int size) {
-		System.out.println("Lê dados do HD.");
+	public String read(int startPosition, int size) {
+		return "Lê dados do HD.";
 	}
 	
 	public void write(int position, String info) {
