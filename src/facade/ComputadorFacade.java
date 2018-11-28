@@ -1,5 +1,9 @@
 package facade;
 
+/*
+ * Classe de facha que fará a incialização de todas as classes do subsistema, evitando de fazer todas essas chamdas
+ * em uma classe cliente.
+ */
 public class ComputadorFacade {
 	private CPU cpu = null;
 	private Memoria memoria = null;
